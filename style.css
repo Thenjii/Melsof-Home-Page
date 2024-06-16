@@ -1,3 +1,28 @@
-body{
-    
-}
+/* unvisited link */
+a:link {
+    color: orangered;
+    text-decoration: none;
+
+
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:indigo;
+    text-decoration: underline;
+
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+
+  }
